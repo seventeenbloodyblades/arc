@@ -1,0 +1,197 @@
+/**
+ * @name venarc
+ * @author arcatrine
+ * @version 2.4
+ * @description pizdec ebuchiy)
+ * @source https://github.com/arcatrine/venarc
+*/
+
+
+/* cool titlebar */ 
+@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
+/* spotify prikol */
+@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
+/* cool messages */
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/MessageTypes/import.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/Username/import.css);
+/* little fixes lol */
+@import url(https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css);
+@import url(https://raw.githubusercontent.com/lumap/css-snippets/main/double-row-badges-fix.css);
+@import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
+/* icons for sets */
+@import url("https://minidiscordthemes.github.io/SettingsIcons/main.min.css");
+:root {
+    --settingsicons: 1;
+    --si-size: 18px;
+    --si-gap: 14px;
+}
+
+:root {
+    --font-primary: 'Onest';
+    --font-display: var(--font-primary);
+    --font-headline: var(--font-primary);
+    --font-code: 'JetBrains Mono'
+}
+
+/* иконка роли будет справа */
+[class*="roleIcon"] {
+    float: left;
+    margin-left: 0rem;
+    margin-right: .35rem;
+}
+
+/* removes message user in profile popout */
+[class*="inputWrapper"][class*="messageInputContainer"] {
+    display: none;
+}
+
+[class*=memberSinceContainer-] {
+    margin-bottom: 14px;
+}
+
+/* bigger emojis */
+.emoji.jumboable {
+    /* 96px is the size of the actual image, anything higher will be blurry */
+    width: 96px;
+    height: 96px;
+}
+
+/* hide chat buttons if discord window very small */
+
+.chatContent-3KubbW {
+    container-type: inline-size;
+    container-name: chat;
+}
+
+@container chat (max-width: 500px) {
+    .chatContent-3KubbW .buttons-uaqb-5 {
+        display: none;
+    } 
+}
+
+/* Add danger colours to dangerous user actions */
+#user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
+#user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
+    background-color: var(--red-500)!important;
+    color: var(--white-500)!important;    
+}
+#user-context-close-dm[class*="focused-"], #user-context-remove-friend[class*="focused-"], #user-context-block[class*="focused-"] {
+    background-color: var(--button-danger-background);
+    color: var(--white-500);   
+}
+
+/* rounded user panel */
+[class^="sidebar_"] [class^="panels_"] {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 1px solid var(--background-modifier-accent);
+  border-radius: 20px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+[class^="sidebar_"] [class^="panels_"] [class^="container_"],
+[class^="sidebar_"] [class^="panels_"] [class^="panel_"] {
+  background: transparent !important;
+}
+
+[class^="sidebar_"] [class^="panels_"] [class^="container_"] [class^="avatarWrapper_"] + [class^="flex_"] {
+  margin-left: -10px;
+}
+
+#vc-spotify-player {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Nitro Theme Shit */
+html.custom-theme-background [class^="sidebar_"] {
+    background: var(--bg-overlay-3);
+}
+html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
+    background: var(--bg-overlay-1);
+}
+
+/* proflies bugfix */
+.userPopoutOverlayBackground-3A0Pcz {
+  max-height: 60vh;
+}
+
+/* Match channel text area to user container */
+.form__13a2c {
+  padding: 0;
+}
+
+.channelTextArea__2e60f {
+  margin: 0;
+}
+
+.scrollableContainer__33e06 {
+  border-radius: 0;
+}
+
+.inner__9fd0b {
+  min-height: 48px;
+  padding-top: 4px;
+}
+
+/* Move typing indicators */
+.typing__6fd1d {
+  top: -24px;
+  left: 0px;
+  width: fit-content;
+  padding-right: 9px;
+  border-radius: 0 8px 0 0;
+  background: var(--bg-overlay-3,var(--channeltextarea-background));
+}
+
+/* Remove single pixel padding from user container */
+.container_ca50b9 {
+  margin: 0;
+}
+/* End Match channel text area to user container */
+
+/* Make jump to present/jump to original/mark as read bars smaller and hug the right */
+.barBase__4e0ba {
+  width: fit-content;
+  margin-left: auto;
+}
+/* End make jump to present/jump to original/mark as read bars smaller and hug the right */
+
+/* shows masked links */
+.anchor_c8ddc0[title$=")"]::after {
+    font-size: 0.7rem;
+    content: " (" attr(href) ")";
+    filter: grayscale(0.4);
+}
+
+/* sneg in titlebar and serverlist /// s novim godom!!! */
+[class^=bg_] {
+  background: url("https://raw.githubusercontent.com/coolesding/shiggycord/v3/img/snow.gif") !important; /* You can use any GIF/PNG/JPEG Link */
+  background-repeat: repeat; /* Adjust if needed (depending on media used) */
+}
+/* Additional Transparency */
+[class^=childWrapper_], /* Discord Home Icon */
+[class*=guilds_], /* Guild List Bar */
+[class^=circleIconButton_],  /* Add Server and Server Discovery */
+[class^=scroller_],  /* Overrides Nitro Themes (for Guild List) */ 
+[class^=typeWindows_], /* Overrides Nitro Themes (for Title Bar) */
+[class^=folder_], [class^=folderIconWrapper_], [class^=expandedFolderBackground_] /*Folders*/ 
+{
+  background: none !important;
+}
+
+/* Additional Recolouring */
+[class^=wordmarkWindows_], /* "Discord" Text */
+[class^=winButton], /* Close Discord Button" Text */
+[class^=circleIcon_] /* Add Server and Server Discovery SVG'S */ {
+    color: #ffffff;
+}
+
+/* Cleanup */
+body, #app-mount/* Overrides Gradient (for Title Bar */ {
+  background: var(--background-tertiary) !important;
+}
+
+
