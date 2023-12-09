@@ -1,2 +1,2 @@
 # arc theme for vencord
-load this into vencord online themes list
+load `https://github.com/arcatrine/venarc/raw/main/venarc.theme.css` to vencord online themes list
