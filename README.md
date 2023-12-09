@@ -1,2 +1,2 @@
 # venarc
-load this into vencord theme list
+load this into vencord online themes list
