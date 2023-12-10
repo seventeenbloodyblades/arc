@@ -11,7 +11,7 @@
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ　　　　　　　　　　　 　 .∥
 　 　 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ　 　 　　　＿__　　 .∥        
 　　　　ㅤ　ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ　 ／　　　 ｀ヽ ∥
-ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ　　　　　 ,:'　　　　　　､ゑ        by arcatrine // seventeenbloodyblades
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ　　　　　 ,:'　　　　　　､ゑ        by arcatrine // @seventeenbloodyblades
 ㅤㅤㅤㅤㅤㅤㅤ　ㅤ　ㅤㅤㅤ　　　,'　　 　;　　i　 八､
 ㅤㅤㅤ　ㅤㅤㅤㅤㅤㅤㅤㅤ　　　　|,! 、 ,! | 　,' ,〃ヽ!;､ 　　
 ㅤㅤㅤ　　ㅤㅤㅤㅤㅤㅤㅤㅤ 　 　|!| ｌ川 l ﾘへ'==二二ト､ 　
@@ -34,10 +34,11 @@
 　　 　 　 　 　ㅤㅤㅤㅤㅤㅤㅤㅤ　ㅤㅤㅤ|　　| .|　 |
 */
 
+
 /* cool titlebar */ 
 @import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
 /* spotify prikol */
-@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
+/*@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
 /* little fixes lol */
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css);
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/double-row-badges-fix.css);
