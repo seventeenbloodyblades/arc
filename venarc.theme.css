@@ -103,6 +103,7 @@
 }
 
 /* rounded user panel */
+/*
 [class^="sidebar_"] [class^="panels_"] {
   margin-right: 5px;
   margin-bottom: 5px;
@@ -124,7 +125,7 @@
 #vc-spotify-player {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
+} */
 
 /* Nitro Theme Shit */
 html.custom-theme-background [class^="sidebar_"] {
