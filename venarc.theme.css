@@ -125,6 +125,13 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+/*also green spotify progress bar*/
+#vc-spotify-player [class^="barFill__"]
+{
+  background:var(--spotify)
+}
+
+
 
 /* Nitro Theme Shit */
 html.custom-theme-background [class^="sidebar_"] {
