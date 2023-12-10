@@ -34,10 +34,6 @@
 　　 　 　 　 　ㅤㅤㅤㅤㅤㅤㅤㅤ　ㅤㅤㅤ|　　| .|　 |
 */
 
-
-/* cool titlebar */ 
-@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
-/* spotify prikol */
 @import url(https://anubisnekhet.github.io/discordCSS/couveSpotify.css);
 :root {
   --spotify-color: var(--brand-experiment); /* brand-experiment */
@@ -47,6 +43,8 @@
   --gradient-start-opacity: 0.6;
   --gradient-end-opacity: 0.3;
 }
+/* cool titlebar */ 
+@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
 /* little fixes lol */
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css);
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/double-row-badges-fix.css);
