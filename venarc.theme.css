@@ -1,7 +1,7 @@
 /**
  * @name venarc
  * @author seventeenbloodyblades
- * @version 2.5.1
+ * @version 2.5.2
  * @description pizdec ebuchiy)
  * @source https://github.com/arcatrine/venarc
 */
@@ -51,7 +51,7 @@
 }
 
 :root {
-    --font-primary: 'JetBrains Mono';
+    --font-primary: 'GG Sans';
     --font-display: var(--font-primary);
     --font-headline: var(--font-primary);
     --font-code: 'JetBrains Mono'
