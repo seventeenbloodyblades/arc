@@ -57,14 +57,14 @@
     --font-code: 'JetBrains Mono'
 }
 
-/* иконка роли будет справа */
+/* icon role will be on the left */
 [class*="roleIcon"] {
     float: left;
     margin-left: 0rem;
     margin-right: .35rem;
 }
 
-/* removes message user in profile popout */
+/* removes 'message user' field in profile popout */
 [class*="inputWrapper"][class*="messageInputContainer"] {
     display: none;
 }
@@ -75,7 +75,7 @@
 
 /* bigger emojis */
 .emoji.jumboable {
-    /* 96px is the size of the actual image, anything higher will be blurry */
+    /* default: 96px, anything higher will be blurry */
     width: 64px;
     height: 64px;
 }
@@ -93,7 +93,7 @@
     } 
 }
 
-/* Add danger colours to dangerous user actions */
+/* add red color on the 'danger' buttons on context menu */
 #user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
 #user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
     background-color: var(--red-500)!important;
@@ -127,7 +127,7 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-/*also green spotify progress bar*/
+/* also green spotify progress bar */
 #vc-spotify-player [class^="barFill__"]
 {
   background:var(--spotify)
