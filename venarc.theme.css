@@ -1,7 +1,7 @@
 /**
  * @name venarc
  * @author seventeenbloodyblades
- * @version 2.4.1
+ * @version 2.5
  * @description pizdec ebuchiy)
  * @source https://github.com/arcatrine/venarc
 */
@@ -49,7 +49,7 @@
 }
 
 :root {
-    --font-primary: 'Onest';
+    --font-primary: 'JetBrains Mono';
     --font-display: var(--font-primary);
     --font-headline: var(--font-primary);
     --font-code: 'JetBrains Mono'
@@ -222,3 +222,25 @@ body, #app-mount/* Overrides Gradient (for Title Bar */ {
   background: var(--background-tertiary) !important;
 }
 
+/* oneko wave button */
+.welcomeCTASticker_ee7523 .assetWrapper_f2e406 .lottieCanvas__86b06 {
+    display: none;
+}
+.welcomeCTASticker_ee7523 .assetWrapper_f2e406 {
+    transform: scale(80%);
+    background-image: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
+    animation: alert 1s infinite;
+    image-rendering: pixelated;
+    width: 32px !important;
+    height: 32px !important;
+}
+@keyframes alert {
+    0%,
+    50% {
+        background-position: -224px -96px;
+    }
+    50.00001%,
+    100% {
+        background-position: -96px -96px;
+    }
+}
