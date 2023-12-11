@@ -76,8 +76,8 @@
 /* bigger emojis */
 .emoji.jumboable {
     /* 96px is the size of the actual image, anything higher will be blurry */
-    width: 96px;
-    height: 96px;
+    width: 64px;
+    height: 64px;
 }
 
 /* hide chat buttons if discord window very small */
