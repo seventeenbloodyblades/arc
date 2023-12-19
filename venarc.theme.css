@@ -40,8 +40,8 @@
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/make-bios-long.css);
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/double-row-badges-fix.css);
 @import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
-/* icons for sets */
-@import url("https://minidiscordthemes.github.io/SettingsIcons/main.min.css");
+/* tabsv2 port from mobile app */
+@import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/tabsv2_desktop.css);
 /* nyancat server boost progressbar */
 @import url(https://anubisnekhet.github.io/discordCSS/nyantro-updated.css);
 :root {
