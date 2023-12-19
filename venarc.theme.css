@@ -51,7 +51,7 @@
 }
 
 :root {
-    --font-primary: 'GG Sans';
+    --font-primary: 'Inter';
     --font-display: var(--font-primary);
     --font-headline: var(--font-primary);
     --font-code: 'JetBrains Mono'
