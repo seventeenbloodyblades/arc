@@ -1,2 +1,3 @@
 # arc theme for vencord
-`https://github.com/arcatrine/arc/raw/main/arc.theme.css` to themes folder/online list or put the code from here to discord client custom css
+`https://raw.githubusercontent.com/seventeenbloodyblades/arc/main/arc.theme.css` 
+copy to online themes list or put the code from here to discord client custom css / themes folder
